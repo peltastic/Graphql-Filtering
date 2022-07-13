@@ -15,7 +15,7 @@ const CharacterInfo = (props: Props) => {
         <img src={props.image} alt="" />
       </div>
       <div className=" w-[80%] text-xl">
-        <h1 className="text-2xl mb-3">{props.name}</h1>
+        <h1 className="text-2xl mb-3 font-bold">{props.name}</h1>
         <div className="flex">
           <p className="mr-4">
             <span className="font-bold text-[#787878] mr-2">Gender:</span>

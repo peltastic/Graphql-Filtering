@@ -6,6 +6,12 @@ html {
   font-size: 62.5%;
 } 
 
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: none;

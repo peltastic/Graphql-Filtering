@@ -21,7 +21,7 @@ const DateGroups = (props: Props) => {
   ));
   return (
     <>
-      <p className="text-2xl">{props.date}:00</p>
+      <p className="text-2xl font-bold  text-[#545454]">{props.date}:00</p>
       {characterInfoJSX}
     </>
   );
