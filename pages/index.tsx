@@ -53,7 +53,8 @@ const Home: NextPage = () => {
 
   //all functions declarations
   const searchHandler = (e: any) => {
-    setSearchValue(e.target.value);
+    const SEARCH_VALUE = e.target.value;
+    setSearchValue(SEARCH_VALUE);
   };
   const filterHandler = (filterType: string, value: string) => {
     const input = value === "All" ? "" : value;
